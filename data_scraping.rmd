@@ -5,7 +5,16 @@ author: Trey Roark
 
 
 
+```{r, warning = FALSE}
+# THERE'S A LIBRARY TO LOAD DRAG RACE DATA BITCH
+suppressMessages(library(dragracer))
+```
 
+```{r}
+data(rpdr_contep, package = "dragracer")
+data(rpdr_contestants, package = "dragracer")
+data(rpdr_ep, package = "dragracer")
+```
 
 
 
